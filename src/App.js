@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Login from './Redux_State_Mangement/UI/Login';
+import Profile from './Redux_State_Mangement/UI/Profile';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+    return (
+        <div>
+            <h1>https://redux-toolkit.js.org/usage/usage-guide</h1>
+            <h4>npm install redux react-redux @redux/toolkit --save</h4>
+            <Profile />
+            <Login />
+        </div>
+    )
 }
-
-export default App;
