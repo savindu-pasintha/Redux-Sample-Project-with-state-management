@@ -9,7 +9,8 @@ In the project directory, you can run:
 ### `npm start`
 
 ###index.js
-import React from 'react';
+<code>
+  import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -38,3 +39,4 @@ ReactDOM.render(
 <Provider store={Store}>
 </Provider>
   */
+</code>  
