@@ -1,5 +1,5 @@
-##npm install reacr-redux --save
-##npm install @reduxjs/toolkit --save
+## npm install reacr-redux --save
+## npm install @reduxjs/toolkit --save
 
 ### `npm start`
 
